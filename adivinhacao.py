@@ -48,3 +48,6 @@ def jogar():
 
     print("O numero secreto era", numero_secreto)
     print("Fim do jogo")
+
+if (__name__ == "__main__"):
+    jogar()
