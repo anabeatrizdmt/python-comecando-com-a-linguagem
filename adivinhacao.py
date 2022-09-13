@@ -3,7 +3,7 @@ import random
 print("*********************************")
 print("Bem-vindo ao jogo de adivinhação!")
 print("*********************************")
-print("Adivinhe o número entre 1 e 10")
+print("Adivinhe o número secreto entre 1 e 10")
 print("*********************************")
 
 numeros = random.getstate()
