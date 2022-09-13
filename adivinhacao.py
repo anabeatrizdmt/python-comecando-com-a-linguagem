@@ -6,7 +6,6 @@ print("*********************************")
 print("Adivinhe o número secreto entre 1 e 10")
 print("*********************************")
 
-numeros = random.getstate()
 numero_secreto = random.randrange(1, 11)
 
 total_de_tentativa = 3
