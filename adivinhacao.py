@@ -33,6 +33,7 @@ while(rodada<=total_de_tentativa):  # | chute != numero_secreto
             print("error")
 
         rodada += 1
+
     else:
         break
 
