@@ -14,7 +14,7 @@ chute=99999
 
 while(rodada<=total_de_tentativa):  # | chute != numero_secreto
     if(chute != numero_secreto):
-        print("Tentativa",rodada,"de", total_de_tentativa)
+        print("Tentativa {} de {}".format(rodada,total_de_tentativa))
         chute_str = input("Digite o seu número: ")
         print("Você digitou", chute_str)
         chute = int(chute_str)
